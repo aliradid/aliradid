@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="t d">
+  <title id="t">Ali Radid, AI for cybersecurity research</title>
+  <desc id="d">An SSH log line shaded by attention weight. The words Failed, root and the source address get the most attention, and the model flags the line as an anomaly with probability 0.97.</desc>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+    .mono, .tok { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .tok { font-size: 28px; }
+    .glint { animation: glint .6s ease-out; }
+    @keyframes glint { 35% { opacity: .38; } }
+    @media (prefers-reduced-motion: reduce) {
+      .glint { animation: none; }
+    }
+  </style>
+  <rect width="1280" height="360" rx="14" fill="#1B1740"/>
+  <text class="sans" x="68" y="120" font-size="100" font-weight="700" letter-spacing="-2" fill="#F4F1FA">Ali Radid</text>
+  <text class="sans" x="72" y="178" font-size="44" fill="#A9A3C9">AI for cybersecurity research</text>
+  <rect x="72.0" y="222" width="150.4" height="48" rx="6" fill="#2A2459"/>
+  <rect class="glint" style="animation-delay:0.50s" x="72.0" y="222" width="150.4" height="48" rx="6" fill="#FFFFFF" opacity="0"/>
+  <text class="tok" x="80.0" y="255" textLength="134.4" lengthAdjust="spacing" fill="#A9A3C9">04:12:09</text>
+  <rect x="232.4" y="222" width="200.8" height="48" rx="6" fill="#3F2E7C"/>
+  <rect class="glint" style="animation-delay:0.62s" x="232.4" y="222" width="200.8" height="48" rx="6" fill="#FFFFFF" opacity="0"/>
+  <text class="tok" x="240.4" y="255" textLength="184.8" lengthAdjust="spacing" fill="#D9D4EE">sshd[2231]:</text>
+  <rect x="443.2" y="222" width="116.8" height="48" rx="6" fill="#EC5A63"/>
+  <rect class="glint" style="animation-delay:0.74s" x="443.2" y="222" width="116.8" height="48" rx="6" fill="#FFFFFF" opacity="0"/>
+  <text class="tok" x="451.2" y="255" textLength="100.8" lengthAdjust="spacing" fill="#1B1740">Failed</text>
+  <rect x="570.0" y="222" width="150.4" height="48" rx="6" fill="#B23A83"/>
+  <rect class="glint" style="animation-delay:0.86s" x="570.0" y="222" width="150.4" height="48" rx="6" fill="#FFFFFF" opacity="0"/>
+  <text class="tok" x="578.0" y="255" textLength="134.4" lengthAdjust="spacing" fill="#FFFFFF">password</text>
+  <rect x="730.4" y="222" width="66.4" height="48" rx="6" fill="#2A2459"/>
+  <rect class="glint" style="animation-delay:0.98s" x="730.4" y="222" width="66.4" height="48" rx="6" fill="#FFFFFF" opacity="0"/>
+  <text class="tok" x="738.4" y="255" textLength="50.4" lengthAdjust="spacing" fill="#A9A3C9">for</text>
+  <rect x="806.8" y="222" width="83.2" height="48" rx="6" fill="#FDB66E"/>
+  <rect class="glint" style="animation-delay:1.10s" x="806.8" y="222" width="83.2" height="48" rx="6" fill="#FFFFFF" opacity="0"/>
+  <text class="tok" x="814.8" y="255" textLength="67.2" lengthAdjust="spacing" fill="#1B1740">root</text>
+  <rect x="900.0" y="222" width="83.2" height="48" rx="6" fill="#2A2459"/>
+  <rect class="glint" style="animation-delay:1.22s" x="900.0" y="222" width="83.2" height="48" rx="6" fill="#FFFFFF" opacity="0"/>
+  <text class="tok" x="908.0" y="255" textLength="67.2" lengthAdjust="spacing" fill="#A9A3C9">from</text>
+  <rect x="993.2" y="222" width="200.8" height="48" rx="6" fill="#EC5A63"/>
+  <rect class="glint" style="animation-delay:1.34s" x="993.2" y="222" width="200.8" height="48" rx="6" fill="#FFFFFF" opacity="0"/>
+  <text class="tok" x="1001.2" y="255" textLength="184.8" lengthAdjust="spacing" fill="#1B1740">203.0.113.7</text>
+  <text class="mono" x="72" y="314" font-size="24" fill="#FDB66E">p(anomaly) = 0.97</text>
+</svg>
